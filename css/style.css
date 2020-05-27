@@ -1,0 +1,87 @@
+body{
+    background-color: #333;
+    color:#fff;
+}
+
+.navbar{
+    border-bottom: #17a2b8 3px solid;
+    opacity: 0.8;
+}
+
+.navbar-collapse{
+    text-align: right;
+}
+
+#home-section{
+    background-image: url('../images/landscape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+
+}
+
+.dark-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 700px;
+}
+
+.home-inner{
+    padding-top:150px;
+}
+
+.card-form{
+    opacity:0.8;
+}
+
+#home-section .fa{
+    color: #333;
+    background-color: #fff;
+    padding:4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+#explore-section .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#explore-section .drop-shadow{
+    box-shadow: 0px 0px 4px grey;
+}
+
+
+
+#create-section .fa{
+    color: #17a2b8;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#create-section .drop-shadow{
+    box-shadow: 0px 0px 8px black;
+}
+
+
+#share-section .fa{
+    color: #fff;
+    background: #333;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#share-section .drop-shadow{
+    box-shadow: 0px 0px 8px grey;
+}
